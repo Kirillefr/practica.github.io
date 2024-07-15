@@ -1,0 +1,41 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h2 {
+  text-align: center;
+}
+
+.content,
+p {
+  padding: 1rem 0;
+}
+
+.instruction {
+  margin: auto;
+  place-items: center;
+  width: 900px;
+  background:  #f1f1f1;
+  padding: 50px;
+  border-radius: 25px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.imgContainer{
+  max-width: 780px;
+  max-height: 1000px;
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid black;
+}
